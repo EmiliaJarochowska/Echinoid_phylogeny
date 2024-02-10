@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "echinoid-phylogeny"
+version = "0.1.0"
+description = "Undergraduate exercise in phylogenetic reconstruction from morphological data"
+authors = ["Emilia Jarochowska and Niklas Hohmann"]
+license = "Apache-2.0"
+readme = "README.md"
+packages = [{include = "echinoid_phylogeny"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+scikit-bio = "^0.5.9"
+pandas = "^2.2.0"
+numpy = "^1.26.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
