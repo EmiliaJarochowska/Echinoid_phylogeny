@@ -36,4 +36,4 @@ print(distance_matrix)
 tree = nj(distance_matrix)
 
 # Export the tree into the Newick format that can be read by various programs
-newick_string = tree.write("echinoids.newick")
+newick_string = tree.write("tree.newick")
