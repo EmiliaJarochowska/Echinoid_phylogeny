@@ -10,7 +10,7 @@ from google.colab import files # for file upload & download
 
 uploads = files.upload() # upload your distance matrix here
 
-df = pd.read_excel(r"Python/matrix.xlsx") # turn .xlsx file into data frame
+df = pd.read_excel("matrix.xlsx") # turn .xlsx file into data frame
 
 Taxa = df.iloc[:, 0] # select taxon names
 Characters = df.iloc[:, 1:] # select character vaues
